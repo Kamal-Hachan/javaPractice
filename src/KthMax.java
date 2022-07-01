@@ -5,7 +5,7 @@
 public class KthMax {
     public static void main(String args[]){
         int arr[]={3,4,2,8,6,9,12,7,25,13};
-        int k = 1;
+        int k = 6;
         int n = arr.length;
         buildHeap(arr, n);
         deleteMax(arr,k);
