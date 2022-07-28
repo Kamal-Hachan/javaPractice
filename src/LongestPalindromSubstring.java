@@ -32,6 +32,7 @@ public class LongestPalindromSubstring {
                 String ts = s.substring(i, j);
                 int currentSubLength = ts.length();
                 int isPal = isPalindrome(ts);
+				//someeeee
                 if (isPal == 1) {
                     count++;
                     if (currentSubLength > maxPalLength) {
